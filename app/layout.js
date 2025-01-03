@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Container from "./components/Container";
 import Hero from "./components/Hero";
 
 export const metadata = {
@@ -15,9 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <Hero/>
-        <Container>
           {children}
-        </Container>
         <Footer />
       </body>
     </html>

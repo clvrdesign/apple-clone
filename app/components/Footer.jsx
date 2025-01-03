@@ -2,7 +2,7 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <>
+    <div className="bg-gray-200 pt-10">
       <Container>
         <div className="grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10">
           <div className="flex flex-col gap-4">
@@ -144,8 +144,26 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p className="text-gray-600 text-sm mt-4">
+          More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.
+        </p>
+        <div className="flex justify-between mt-4 py-6 border-t border-gray-300">
+          <ul className="inline-flex gap-6 text-sm text-gray-600">
+            <li>
+              Copyright © 2025 Apple Inc. All rights reserved.
+            </li>
+            <li>Privacy</li>
+            <li>Policy</li>
+            <li>
+              Terms of Use Sales and Refunds Legal Site Map
+            </li>
+          </ul>
+          <ul className="inline-flex gap-6 text-sm text-gray-600">
+            <li>Burundi</li>
+          </ul>
+        </div>
       </Container>
-    </>
+    </div>
   );
 };
 
