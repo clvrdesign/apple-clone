@@ -8,7 +8,7 @@ const Products = () => {
                 <div className="">
                 </div>
             </Container>
-            <Image src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg" className="w-full h-full object-cover" width="600" height="300" alt="" />
+            <Image src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpgCLS" className="w-full h-full object-cover" width="600" height="300" alt="" />
         </div>
     )
 }

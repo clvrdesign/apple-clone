@@ -22,8 +22,8 @@ const Hero = () => {
               Motivation your wrist, all eyes!
             </p>
             <div className="flex gap-6 mt-6">
-              <Button variant={'bg-sky-500 text-white'}>Learn More</Button>
-              <Button variant={'bg-transparent text-gray-500 border border-gray-500 text-white'}>Shop</Button>
+              <Button >Learn More</Button>
+              <Button >Shop</Button>
             </div>
             </div>
           </div>
